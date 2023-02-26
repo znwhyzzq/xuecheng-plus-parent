@@ -38,7 +38,7 @@
         <swagger-spring-boot-starter.version>1.9.0.RELEASE</swagger-spring-boot-starter.version>
         <elasticsearch.version>7.12.1</elasticsearch.version>
     </properties>
-
+    <dependencyManagement>
     <dependencies>
 <!--        <dependency>-->
 <!--            <groupId>org.springframework.boot</groupId>-->
@@ -197,7 +197,7 @@
         </dependency>
 
 </dependencies>
-
+    </dependencyManagement>
     <build>
         <plugins>
             <plugin>
